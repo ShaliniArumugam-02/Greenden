@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+    <link href="
+https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Responsive navbar -->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+
+
+
+        <ul class="flex space-x-4 text-gray-600 hidden md:flex ">
+            <li><a class="hover:underline" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline" href="products.html">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Search bar -->
+    <section class="flex flex-col space-y-4 justify-center items-center mt-10">
+        <h1 class="font-bold text-3xl">Our Products</h1>
+        <input type="text" class="border border-gray-300 rounded p-2 w-1/2 md:w-50 lg:w-50"
+            placeholder="Whate are you looking for? ">
+        </svg>
+
+    </section>
+
+    <!-- categories -->
+    <section class="p-4 m-5">
+        <div class="flex justify-between hidden md:flex shadow-l ">
+
+
+            <p class="bg-green-300 p-2 rounded-md hover:bg-green-600">Gardening</p>
+            <p class="bg-green-300 p-2 rounded-md hover:bg-green-600">Plants</p>
+            <p class="bg-green-300 p-2 rounded-md hover:bg-green-600">Seeds</p>
+            <p class="bg-green-300 p-2 rounded-md hover:bg-green-600">Bulbs</p>
+            <p class="bg-green-300 p-2 rounded-md hover:bg-green-600">Planter</p>
+            <p class="bg-green-300 p-2 rounded-md hover:bg-green-600">Soil & Fertilize</p>
+            <p class="bg-green-300 p-2 rounded-md hover:bg-green-600">Gifts</p>
+            <p class="bg-green-300 p-2 rounded-md hover:bg-green-600">Pebbles</p>
+            <p class="bg-green-300 p-2 rounded-md hover:bg-green-600">Accessories</p>
+            <p class="bg-green-300 p-2 rounded-md hover:bg-green-600">Corporate Gifting</p>
+
+        </div>
+        <div class="mt-8  flex text-center gap-5 p-2 md:flex-row flex-wrap justify-center items-center">
+            <div>
+                <img src="./images/gardening.avif" class="rounded-full w-32 h-32 transform transition duration-300 hover:scale-105 shadow-lg">
+                <h4 class="p-2 font-medium">GARDENING</h4>
+            </div>
+            <div>
+                <img src="./images/plants.avif" class="rounded-full w-32 h-32 transform transition duration-300 hover:scale-105 shadow-lg">
+                <h4 class="p-2 font-medium">PLANTS</h4>
+            </div>
+            <div>
+                <img src="./images/seeds.avif" class="rounded-full w-32 h-32 transform transition duration-300 hover:scale-105 shadow-lg">
+                <h4 class="p-2 font-medium">SEEDS</h4>
+            </div>
+
+            <div>
+                <img src="./images/bulbs.avif" class="rounded-full w-32 h-32 transform transition duration-300 hover:scale-105 shadow-lg">
+                <h4 class="p-2 font-medium">BULBS</h4>
+            </div>
+            <div>
+                <img src="./images/plants.avif" class="rounded-full w-32 h-32 transform transition duration-300 hover:scale-105 shadow-lg">
+                <h4 class="p-2 font-medium">PLANTER</h4>
+            </div>
+
+            <div>
+                <img src="./images/fertilixer.avif" class="rounded-full w-32 h-32 transform transition duration-300 hover:scale-105 shadow-lg">
+                <h4 class="p-2 font-medium">FERTILIZER</h4>
+            </div>
+            <div>
+                <img src="./images/pebbles.avif" class="rounded-full w-32 h-32 transform transition duration-300 hover:scale-105 shadow-lg">
+                <h4 class="p-2 font-medium">Pebbles</h4>
+            </div>
+            <div>
+                <img src="./images/accessories.avif" class="rounded-full w-32 h-32 transform transition duration-300 hover:scale-105 shadow-lg">
+                <h4 class="p-2 font-medium">ACCRSSORIES</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular -->
+    <section class="text-center p-2 bg-green-50">
+    <h2 class="font-bold text-2xl m-4">Popular</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-2 m-2 w-auto">
+        <img src="./images/popular-1.jpg" alt="" class="w-full h-auto rounded shadow-md">
+        <img src="./images/popular-2.jpg" alt="" class="w-full h-auto rounded shadow-md">
+        <img src="./images/popular-3.jpg" alt="" class="w-full h-auto rounded shadow-md">
+        <img src="./images/popular-4.jpg" alt="" class="w-full h-auto rounded shadow-md">
+    </div>
+</section>
+
+
+     <!-- Garden Decor & Care -->
+      <section class="text-center p-2 mt-5 bg-green-50">
+        <h2 class="font-bold text-2xl m-4">Garden Decor & Care</h2>
+        
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-2 m-2 w-auto">
+        <img src="./images/decor-1.jpg" alt="" class="w-full h-auto rounded shadow-md">
+        <img src="./images/decor-2.jpg" alt="" class="w-full h-auto rounded shadow-md">
+        <img src="./images/decor-3.jpg" alt="" class="w-full h-auto rounded shadow-md">
+        <img src="./images/decor-4.jpg" alt="" class="w-full h-auto rounded shadow-md">
+    </div>
+      </section>
+
+
+
+
+ <!-- Footer -->
+        <section>
+            <footer class="bg-green-100 text-gray-800 mt-10 p-6">
+                <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+
+                    <!-- Company Info -->
+                    <div>
+                        <h3 class="font-bold text-xl mb-2">Greenden 🌱</h3>
+                        <p class="text-sm">Bringing nature closer to you. From balcony plants to office greens — we've
+                            got your space covered.</p>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div>
+                        <h4 class="font-semibold mb-2">Quick Links</h4>
+                        <ul class="text-sm space-y-1">
+                            <li><a href="#" class="hover:underline">Home</a></li>
+                            <li><a href="#" class="hover:underline">Products</a></li>
+                            <li><a href="#" class="hover:underline">About Us</a></li>
+                            <li><a href="#" class="hover:underline">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div>
+                        <h4 class="font-semibold mb-2">Contact Us</h4>
+                        <p class="text-sm">📞 +91 98765 43210</p>
+                        <p class="text-sm">✉️ support@greenden.in</p>
+                        <p class="text-sm">📍 Bengaluru, India</p>
+                    </div>
+
+                </div>
+
+                <div class="text-center text-xs text-gray-600 mt-6">
+                    &copy; 2025 Greenden. All rights reserved.
+                </div>
+            </footer>
+
+        </section>
+
+</body>
+
+</html>
